@@ -47,9 +47,11 @@ function handleClick(event) {
     }
     console.log(formData);
     localStorage.removeItem(LOCAL_KEY)
-
     form.reset()
+    formData.email = "";
+    formData.message = ""
 }
+
 
 
 
